@@ -863,8 +863,11 @@ footer {
 }
 
 .social-links a:hover {
-  background: var(--primary);
   transform: translateY(-5px);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
 }
 
